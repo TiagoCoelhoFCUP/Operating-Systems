@@ -4,11 +4,11 @@ In this project we were taked with creating a program capable of emulating a lin
 
 The shell is be able to:
 <ul>
-  <li> Handle simple commands like ls, gcc, date, etc --------> ex: ls -l /tmp</li>
-  <li> Handle simple input redirection using a file as stdin --------> ex: more < file_in </li>
-  <li> Handle simple output redirection using a file as stdout --------> ex: s > file_out </li>
-  <li> Support custom user commands --------> ex: user_command infile.txt outfile.txt command_input </li>
-  <li> Support the chaining of commands with the use of pipes --------> ex: ps -ef | grep bash | wc </li>
-  <li> Handle process competition --------> ex: gcc -o pois pois.c & </li>
+  <li> Handle simple commands like ls, gcc, date, etc -----------------------> ex: ls -l /tmp</li>
+  <li> Handle simple input redirection using a file as stdin -----------------> ex: more < file_in </li>
+  <li> Handle simple output redirection using a file as stdout --------------> ex: s > file_out </li>
+  <li> Support custom user commands --------------------------------------> ex: user_command infile.txt outfile.txt command_input </li>
+  <li> Support the chaining of commands with the use of pipes -----------> ex: ps -ef | grep bash | wc </li>
+  <li> Handle process competition -------------------------------------------> ex: gcc -o pois pois.c & </li>
 </ul>
 
